@@ -1,0 +1,24 @@
+{
+  "name": "json-schema-compiler",
+  "version": "0.0.1",
+  "description": "Compile JSON schema files written in javascript to JSON, for application consumption.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "compile-contracts": "index.js"
+  },
+  "author": "Kevin Altman <kevin@itsthatguy.com>",
+  "license": "MIT",
+  "keywords": [
+    "json",
+    "schema",
+    "compile",
+    "compiler"
+  ],
+  "dependencies": {
+    "args": "^3.0.4",
+    "fs-extra": "^4.0.1",
+    "glob": "^7.1.2"
+  }
+}
