@@ -1,6 +1,6 @@
 {
   "name": "json-schema-compile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compile JSON schema files written in javascript to JSON, for application consumption.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
