@@ -52,6 +52,6 @@ glob(pathGlob, options, function (err, files) {
   files.forEach(function (file) {
     const { dir, name } = path.parse(file);
     const data = require(path.resolve(process.cwd(), file));
-    saveToFile(data, `${name}.js`, path.join(outputDir, dir));
+    saveToFile(data, `${name}.json`, path.join(outputDir, dir));
   });
 });
